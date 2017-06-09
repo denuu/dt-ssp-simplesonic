@@ -15,7 +15,7 @@
  *  @param  array 	$columns	    Column information array
  *  @return array 			        Server-side processing response array
  */
-public function simplesonic ()
+function simplesonic ()
 {
 
     $request = $this->params['request'];
